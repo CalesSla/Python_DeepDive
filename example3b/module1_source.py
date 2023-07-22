@@ -1,4 +1,6 @@
-print('running module1.py')
+print("Running module1_source.py")
 
 def hello():
-    print('module1 says hello!')
+    print("Module1 says Hello!")
+
+hello()

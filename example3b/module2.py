@@ -1,6 +1,6 @@
-print('running module2.py')
+print('Running module2.py')
 import module1
 
 def hello():
-    print('module2 says hello!\nand...')
+    print("Module2 says Hello!\n and...")
     module1.hello()
