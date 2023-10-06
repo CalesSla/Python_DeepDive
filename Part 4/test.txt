@@ -1,3 +1,1 @@
-<_io.TextIOWrapper name='test.txt' mode='w' encoding='cp1252'>
-line 1
-line 2
+testing.....
