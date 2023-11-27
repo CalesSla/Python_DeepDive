@@ -42,6 +42,7 @@ static string GetStringWithoutBrekets(string input)
         return input;
 
     var chars = input.ToCharArray();
+    
     var iO = 0;
     var iC = 0;
 
@@ -83,7 +84,8 @@ static double Calc(string input)
 static double CalcPlus(string input)
 {
     double r = 0;
-
+    Console.WriteLine($"CalcPlus input: {input}");
+    Console.WriteLine($"CalcPlus digits: {digits}");
     var digits = input.Replace("(", "").Replace(")", "").Split('+');
     for (int i = 0; i < digits.Length; i++)
     {
@@ -122,15 +124,15 @@ static bool IsValid(string input)
 
 static string GetFirstInput()
 {
-    return "((2+2) + 2)";
+    return "((22+2) + 2)";
 }
 
-static string GetSecondInput()
-{
-    return "(2+2) + (3+3)";
-}
+// static string GetSecondInput()
+// {
+//     return "(2+2) + (3+3)";
+// }
 
-static string GetThirdInput()
-{
-    return "(((2+2) + (2+1) + 3) + 2) + 1";
-}
+// static string GetThirdInput()
+// {
+//     return "(((2+2) + (2+1) + 3) + 2) + 1";
+// }
