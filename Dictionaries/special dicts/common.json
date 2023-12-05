@@ -15,5 +15,8 @@
   "logs": {
     "level": "info",
     "format": "%(asctime)s: %(levelname)s: %(clientip)s %(user)s %(message)s"
+  },
+  "extra": {
+    "first": 1
   }
 }
